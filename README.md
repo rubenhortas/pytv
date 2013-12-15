@@ -22,21 +22,20 @@ REQUISITOS
 
 USO
    
-   pytv.py [-h] canal
-   
-   Capturador de televisión online
-   
-   positional arguments:
-       canal       Canal para ver
+	pytv.py [-h] canal
+		Capturador de televisión online
 
-   optional arguments:
-       -h, --help  show this help message and exit
-       
-   Lista de canales disponibles:
-       antena3    - Antena 3
-       lasexta    - La Sexta
-       nova		  - Nova
-       xplora     - Xplora
+	positional arguments:
+		canal       Canal para ver
+
+	optional arguments:
+		-h, --help  show this help message and exit
+
+	Lista de canales disponibles:
+		antena3    - Antena 3
+		lasexta    - La Sexta
+		nova       - Nova
+		xplora     - Xplora
 
 
 CONTACTO
