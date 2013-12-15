@@ -17,11 +17,11 @@ LICENCIA
 
 REQUISITOS
 
-   mplayer
-   rtmpdump
+    mplayer
+    rtmpdump
 
 USO
-	
+   
    pytv.py [-h] canal
    
    Capturador de televisión online
