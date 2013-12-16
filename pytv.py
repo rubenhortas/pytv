@@ -56,7 +56,7 @@ def Watch(canal):
         Launch_mplayer(c_info)
     else:
         print '[ERROR] El canal ' + canal + 'no está incluido en' \
-                + 'la lista'
+            + 'la lista'
         print '\tConsulta la lista de canales soportados en la ayuda.'
         exit(1)
 
@@ -79,7 +79,7 @@ def Launch_mplayer(c_info):
                              stderr=devnull, shell=False)
         print
         print '(mplayer está ejecutándose en background.' \
-                + 'Puedes cerrar esta ventana.)'
+            + 'Puedes cerrar esta ventana.)'
         print
         exit(0)
     except NameError:
