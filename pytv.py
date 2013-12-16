@@ -23,7 +23,7 @@ def Check_prog(prog):
     Check_prog(prog)
         Comprueba que un programa esté instalado.
     Args:
-        - prog: (string) Programa.
+        - prog: (string) Programa a ejecutar.
     """
     try:
         devnull = open(os.devnull)
@@ -37,7 +37,7 @@ def Check_prog(prog):
 def Watch(canal):
     """
     Watch(canal)
-        Obtiene la información del canal (Nombre y url del streaming.
+        Obtiene la información del canal (Nombre y url del streaming).
     Args:
         - canal: (string) Canal a visualizar.
     """
@@ -95,6 +95,7 @@ if __name__ == '__main__':
                                      Lista de canales disponibles:
                                      antena3    - Antena 3
                                      lasexta    - La Sexta
+                                     nova       - Nova
                                      xplora     - Xplora
                                      '''))
 
