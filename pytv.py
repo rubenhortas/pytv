@@ -75,8 +75,14 @@ def Launch_mplayer(c_info):
     devnull = open(os.devnull, 'w')
     try:
         print 'Canal: %s' % n_canal
-        p = subprocess.Popen(['mplayer', url], stdout=devnull,
-                             stderr=devnull, shell=False)
+
+        mp_cache = 10240 # in KB
+        mplayer_order = 'mplayer -really-quiet -cache ' + str(mp_cache) \
+            + ' ' + url
+        order = mplayer_order + ' ' + url
+
+        p = subprocess.Popen([order], stdout=devnull,
+                             stderr=devnull, shell=True)
         print
         print '(mplayer está ejecutándose en background.' \
             + 'Puedes cerrar esta ventana.)'
