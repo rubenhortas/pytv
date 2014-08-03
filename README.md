@@ -1,6 +1,14 @@
 pytv
 ===========
 
+OBSOLETO
+
+	Debido a cambios en las webs de a3media, y a que no quieren más audiencia
+	(cosa que se deduce de sus "cease and desist", como el enviado a pydowntv),
+	este script deja de tener soporte, y está oficialmente obsoleto.
+
+DESCRIPCIÓN 
+
    pytv es un pequeño script en python para ver la televisión 
    online sin utilizar Flash.
 
