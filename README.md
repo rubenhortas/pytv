@@ -15,7 +15,7 @@ DESCRIPCIÓN
 AUTOR
 
     Rubén Hortas
-    Contacto: rubenhortas@gmail.com
+    Contacto: rubenhortas at gmail.com
     Blog: http://www.rubenhortas.blogspot.com.es
 
 LICENCIA
