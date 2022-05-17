@@ -2,16 +2,6 @@
 # _*_ coding: utf-8 _*_
 
 
-"""
-File:       pytv.py
-Version:    1.0
-Author:     Rubén Hortas <rubenhortas@gmail.com>
-Website:    http://rubenhortas.blogspot.com.es
-Github:     http://github.com/rubenhortas/pytv
-License:    CC BY-NC-SA 3.0
-            http://creativecommons.org/licenses/by-nc-sa/3.0/
-"""
-
 import argparse
 import os
 import subprocess
