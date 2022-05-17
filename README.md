@@ -1,35 +1,11 @@
-pytv
-===========
+# pytv
+pytv is a small python script to watch tv online without using Flash.
 
-OBSOLETO
-
-	Debido a cambios en las webs de a3media, y a que no quieren más audiencia
-	(cosa que se deduce de sus "cease and desist", como el enviado a pydowntv),
-	este script deja de tener soporte, y está oficialmente obsoleto.
-
-DESCRIPCIÓN 
-
-   pytv es un pequeño script en python para ver la televisión 
-   online sin utilizar Flash.
-
-AUTOR
-
-    Rubén Hortas
-    Contacto: rubenhortas at gmail.com
-    Blog: http://www.rubenhortas.blogspot.com.es
-
-LICENCIA
-
-    CC BY-NC-SA 3.0
-    http://creativecommons.org/licenses/by-nc-sa/3.0/
-
-REQUISITOS
-
-    mplayer
-    rtmpdump
-
-USO
-   
+## Requirements
+    - mplayer
+    - rtmpdump
+	
+## Usage
 	pytv.py [-h] canal
 		Capturador de televisión online
 
@@ -45,17 +21,5 @@ USO
 		nova       - Nova
 		xplora     - Xplora
 
-
-CONTACTO
-
-    Si tienes problemas, pregutas, ideas o sugerencias, puedes
-    contribuir con este pequeño proyecto en el repositorio de
-    github:
-
-    https://github.com/rubenhortas/pytv
-
-SITIO WEB
-
-    Visita el sitio en github de pytv para conocer las últimas
-    novedades y versiones:
-    https://github.com/rubenhortas/pytv
+# ARCHIVED 
+Due to the death of flash and the constant closures of online television channels this script is deprecated.
