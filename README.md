@@ -1,5 +1,5 @@
 # pytv
-pytv is a small python script to watch tv online without using Flash.
+pytv is a small python script to watch tv online without using flash
 
 ## Requirements
     - mplayer
